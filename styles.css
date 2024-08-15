@@ -21,13 +21,19 @@ header {
     font-size: 18px;
 }
 
-.projects {
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     padding: 20px;
     background-color: #fff;
 }
 
 .project {
-    margin-bottom: 40px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .project img {
@@ -45,6 +51,10 @@ header {
     padding: 20px;
     background-color: #f8f8f8;
     text-align: center;
+}
+
+.pdf-preview {
+    margin: 20px 0;
 }
 
 .resume-button {
