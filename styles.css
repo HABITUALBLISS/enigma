@@ -6,66 +6,33 @@ body {
     color: #e0e0e0;
 }
 
-header {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #333;
-}
-
-.intro {
-    padding: 20px;
-    background-color: #1e1e1e;
-}
-
-.intro p {
-    margin: 20px 0;
-    font-size: 18px;
-    color: #e0e0e0;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    background-color: #1e1e1e;
-}
-
-.project {
-    background-color: #2a2a2a;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid #333;
-}
-
-.project img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.project p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #e0e0e0;
-}
-
 .resume {
     padding: 20px;
-    background-color: #1e1e1e;
     text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
-.pdf-preview {
-    margin: 20px 0;
+.resume-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .resume-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #ffffff;
@@ -75,13 +42,16 @@ header {
 }
 
 .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
-footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    border-top: 1px solid #333;
+@media (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+
+    .resume-button {
+        width: 100%;
+        padding: 15px;
+    }
 }
