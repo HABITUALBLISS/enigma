@@ -23,7 +23,7 @@ header {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
     background-color: #fff;
@@ -34,6 +34,7 @@ header {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    border: 1px solid #ddd;
 }
 
 .project img {
@@ -51,10 +52,14 @@ header {
     padding: 20px;
     background-color: #f8f8f8;
     text-align: center;
+    margin: 20px;
+    border-radius: 5px;
 }
 
-.pdf-preview {
-    margin: 20px 0;
+.pdf-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .resume-button {
@@ -76,4 +81,6 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #222;
 }
