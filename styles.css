@@ -3,24 +3,25 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
-    color: #fff; /* Set the default text color to white */
+    color: #fff; /* Default text color */
 }
 
 header {
     background-color: #000;
-    color: #fff;
+    color: #fff !important; /* Force white text */
     padding: 20px;
     text-align: center;
 }
 
 .intro {
     padding: 20px;
-    color: #fff; /* Ensure the text color in intro section is white */
+    color: #fff !important; /* Force white text */
 }
 
 .intro p {
     margin: 20px 0;
     font-size: 18px;
+    color: #fff !important; /* Force white text */
 }
 
 .projects-grid {
@@ -32,12 +33,12 @@ header {
 }
 
 .project {
-    background-color: #000;
+    background-color: #000000;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     border: 1px solid #fff;
-    color: #fff; /* Set text color to white for project descriptions */
+    color: #fff !important; /* Force white text */
 }
 
 .project img {
@@ -49,16 +50,16 @@ header {
 .project p {
     margin-top: 10px;
     font-size: 16px;
-    color: #fff; /* Ensure text is white within project description */
+    color: #fff !important; /* Force white text */
 }
 
 .resume {
     padding: 20px;
-    background-color: #000;
+    background-color: #000000;
     text-align: center;
     margin: 20px;
     border-radius: 5px;
-    color: #fff; /* Ensure text is white in resume section */
+    color: #fff !important; /* Force white text */
 }
 
 .pdf-preview img {
@@ -72,18 +73,19 @@ header {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #fff; /* Change text color in the button to white */
+    color: #fff !important; /* Force white text */
     text-decoration: none;
     border-radius: 5px;
 }
 
 .resume-button:hover {
     background-color: #0056b3;
+    color: #fff !important; /* Ensure hover color stays white */
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #fff !important; /* Force white text */
     padding: 10px;
     text-align: center;
     margin-top: 20px;
