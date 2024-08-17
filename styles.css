@@ -2,27 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #1f1f1f;
-    color: #ffffff;
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #333;
 }
 
 .intro {
     padding: 20px;
-    background-color: #1e1e1e;
 }
 
 .intro p {
     margin: 20px 0;
     font-size: 18px;
-    color: #e0e0e0;
 }
 
 .projects-grid {
@@ -30,15 +26,14 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
-    background-color: #1e1e1e;
+    background-color: #fff;
 }
 
 .project {
-    background-color: #2a2a2a;
+    background-color: #f8f8f8;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    border: 1px solid #333;
 }
 
 .project img {
@@ -50,12 +45,11 @@ header {
 .project p {
     margin-top: 10px;
     font-size: 16px;
-    color: #e0e0e0;
 }
 
 .resume {
     padding: 20px;
-    background-color: #1e1e1e;
+    background-color: #f8f8f8;
     text-align: center;
 }
 
@@ -68,10 +62,9 @@ header {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #0056b3;
 }
 
 .resume-button:hover {
@@ -79,9 +72,8 @@ header {
 }
 
 footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
+    background-color: #333;
+    color: #fff;
     padding: 10px;
     text-align: center;
-    border-top: 1px solid #333;
 }
