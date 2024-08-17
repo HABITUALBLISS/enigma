@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
+    color: #fff; /* Set the default text color to white */
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 
 .intro {
     padding: 20px;
+    color: #fff; /* Ensure the text color in intro section is white */
 }
 
 .intro p {
@@ -30,11 +32,12 @@ header {
 }
 
 .project {
-    background-color: #000000;
+    background-color: #000;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     border: 1px solid #fff;
+    color: #fff; /* Set text color to white for project descriptions */
 }
 
 .project img {
@@ -46,14 +49,16 @@ header {
 .project p {
     margin-top: 10px;
     font-size: 16px;
+    color: #fff; /* Ensure text is white within project description */
 }
 
 .resume {
     padding: 20px;
-    background-color: #000000;
+    background-color: #000;
     text-align: center;
     margin: 20px;
     border-radius: 5px;
+    color: #fff; /* Ensure text is white in resume section */
 }
 
 .pdf-preview img {
@@ -67,7 +72,7 @@ header {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #000;
+    color: #fff; /* Change text color in the button to white */
     text-decoration: none;
     border-radius: 5px;
 }
