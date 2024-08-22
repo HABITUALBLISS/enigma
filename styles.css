@@ -79,7 +79,7 @@ header {
 }
 
 .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #b5b5b5;
     color: #fff !important; /* Ensure hover color stays white */
 }
 
